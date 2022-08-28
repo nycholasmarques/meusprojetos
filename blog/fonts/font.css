@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'manga';
+    src: url('mangat.ttf');
+}
+
+.logo {
+    font-family: 'manga';
+}

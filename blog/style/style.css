@@ -59,6 +59,8 @@ nav
 body {
     height: 100vh;
     background: linear-gradient(to top, #2C7DA0, #012A4A);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -91,7 +93,7 @@ body {
     cursor: pointer;
     border: 0;
     background: linear-gradient(to left, transparent 0%, black 200%);
-    opacity: 0.2;
+    opacity: 0.4;
     transition: all 400ms ease-in-out;
 }
 
@@ -133,3 +135,41 @@ body {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  /*NOTICIAS DA PAGINA*/
+
+  h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+  }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.notice {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.notice {
+    background-color: #d0e8f0;
+    border-radius: 30px;
+    
+}
+
+.notice >  div {
+    flex: 1 1 250px;
+    margin: 30px;
+}
